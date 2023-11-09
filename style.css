@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+header{
+    background-color: rgb(0, 140, 255);
+    border: 15px solid rgb(0, 140, 255);
+    margin: auto;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    font-size: 15px;
+}
+
+h1{
+    color: black;
+}
+
+h1:hover{
+    font-size: 35px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+}
+
+.bmw{
+    border: 34px solid rgb(36, 36, 36);
+    margin: auto;
+    text-align: center;
+}
+
+.hac:hover{
+    opacity: 0.3;
+}
